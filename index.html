@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <section class="task-section-one">
+        <div class="container-fluid py-4">
+            <h2 class="text-center task-heading-one">DelphianLogic in Action</h2>
+            <p class="text-center task-heading-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                commodo</p>
+
+            <!-- Desktop View -->
+            <div class="row w-100 desktop-view">
+                <div class="col-10  task-slide-part-all">
+
+                    <div class="row w-100">
+                        <!-- Column 1: Tabs -->
+                        <div class="col-md-3  task-slide-part-one ">
+                            <div id="tabs" class="d-flex flex-column">
+
+                                <div class="box-one">
+                                    <div class="task-slide-part-one-all-img">
+                                        <img height="40px" src="./files/images/DL-learning.svg" alt="#">
+                                    </div>
+                                    <div class="category-tab active task-slide-part-one-all-h1" data-tab="learning">
+                                        Learning
+                                    </div>
+                                </div>
+
+                                <div class="box-one">
+                                    <div class="task-slide-part-one-all-img">
+                                        <img height="40px" src="./files/images/DL-technology.svg" alt="#">
+                                    </div>
+                                    <div class="category-tab task-slide-part-one-all-h1" data-tab="technology">
+                                        Technology</div>
+                                </div>
+                                <div class="box-one">
+                                    <div class="task-slide-part-one-all-img">
+                                        <img height="40px" src="./files/images/DL-communication.svg" alt="#">
+                                    </div>
+                                    <div class="category-tab task-slide-part-one-all-h1" data-tab="communication">
+                                        Communication</div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <!-- Column 2: Slider -->
+                        <div class="col-md-4 task-slide-part-two">
+                            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                                <div class="arrow-left"></div>
+                                <!-- Carousel Indicators (Dots) -->
+                                <div class="carousel-indicators" id="first-desktop">
+                                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+
+                                <div class="carousel-inner" id="carousel-inner">
+                                    <div class="carousel-item active" data-tab="learning">
+                                        <div class="tab-content">
+                                            <span class="badge ">DIGITAL LEARNING INFRASTRUCTURE</span>
+                                            <h4 class="mt-3 column-two-para">Usability enhancement and Training for
+                                                Transaction Portal for Customers</h4>
+                                            <a href="#" class="btn btn-link column-button text-white mt-3">Learn More
+                                                →</a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-tab="technology">
+                                        <div class="tab-content">
+                                            <span class="badge  "> DIGITAL TECHNOLOGY INFRASTRUCTURE</span>
+                                            <h4 class="mt-3 column-two-para">Modernization of Internal Systems through
+                                                Cloud Integration</h4>
+                                            <a href="#" class="btn column-button btn-link text-white mt-3">Learn More
+                                                →</a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-tab="communication">
+                                        <div class="tab-content">
+                                            <span class="badge "> DIGITAL COMMUNICATION INFRASTRUCTURE</span>
+                                            <h4 class="mt-3 column-two-para">Effective Communication Channels for Global
+                                                Teams</h4>
+                                            <a href="#" class="btn btn-link column-button text-white mt-3">Learn More
+                                                →</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="prev">
+                                    <span class=" "></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="next">
+                                    <span class=" "></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Column 3: Image -->
+                        <div class="col-md-4 slider-image-container task-slide-part-three">
+                            <img id="slide-image" src="./files/images/DL-Technology.jpg" alt="Slide Visual">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Mobile View -->
+            <div class="mobile-view">
+                <!-- Learning Tab -->
+                <div class="accordion" id="accordionPanels">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingLearning">
+                            <button class="accordion-button d-flex justify-content-between align-items-center box-one"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseLearning"
+                                aria-expanded="true" aria-controls="collapseLearning">
+                                <div class="task-slide-part-one-all-img">
+                                    <img height="40px" src="./files/images/DL-learning.svg" alt="#">
+                                </div>
+                                <div class="category-tab task-slide-part-one-all-h1" data-tab="learning">
+                                    Learning
+                                </div>
+                                <img src="./files/icons/plus-01.svg" class="accordion-icon ms-auto" alt="Toggle Icon">
+                            </button>
+                        </h2>
+
+                        <div id="collapseLearning" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionPanels">
+
+                            <div class="accordion-body p-0">
+
+                                <div id="carouselLearning" class="carousel slide" data-bs-ride="carousel">
+
+
+                                    <div id="carouselCommunication" class="carousel slide" data-bs-ride="carousel"
+                                        data-bs-interval="5000">
+
+                                        <!-- Carousel Inner -->
+                                        <div class="carousel-inner">
+                                            <!-- Slide 1 -->
+                                            <div class="carousel-item active second-mobile"
+                                                style="background-image: url('./files/images/DL-Learning-1.jpg'); background-size: cover; background-position: center; min-height: 300px;">
+                                                <div class="triangle-up triangle-up-second"></div>
+                                                <div class="text-overlay p-4 text-white">
+                                                    <span class="badge">DIGITAL LEARNING INFRASTRUCTURE</span>
+                                                    <h4 class="mt-3">Usability enhancement and Training for Transaction
+                                                        Portal for Customers</h4>
+                                                    <a href="#" class="btn btn-link column-button text-white mt-3">Learn
+                                                        More →</a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Slide 2 -->
+                                            <div class="carousel-item second-mobile"
+                                                style="background-image: url('./files/images/DL-Technology.jpg'); background-size: cover; background-position: center; min-height: 300px;">
+                                                <div class="triangle-up triangle-up-second"></div>
+                                                <div class="text-overlay p-4 text-white">
+                                                    <span class="badge">DIGITAL TECHNOLOGY INFRASTRUCTURE</span>
+                                                    <h4 class="mt-3">Modernization of Internal Systems through Cloud
+                                                        Integration</h4>
+                                                    <a href="#" class="btn btn-link column-button text-white mt-3">Learn
+                                                        More →</a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Slide 3 -->
+                                            <div class="carousel-item second-mobile"
+                                                style="background-image: url('./files/images/DL-Communication.jpg'); background-size: cover; background-position: center; min-height: 300px;">
+                                                <div class="triangle-up triangle-up-second"></div>
+                                                <div class="text-overlay p-4 text-white">
+                                                    <span class="badge">DIGITAL COMMUNICATION INFRASTRUCTURE</span>
+                                                    <h4 class="mt-3">Effective Communication Channels for Global Teams
+                                                    </h4>
+                                                    <a href="#" class="btn btn-link column-button text-white mt-3">Learn
+                                                        More →</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Controls -->
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselCommunication" data-bs-slide="prev">
+                                            <span class=""></span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselCommunication" data-bs-slide="next">
+                                            <span class=" "></span>
+                                        </button>
+
+                                        <!-- Dots -->
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselCommunication"
+                                                data-bs-slide-to="0" class="active" aria-current="true"
+                                                aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselCommunication"
+                                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselCommunication"
+                                                data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Controls -->
+                                    <button class=" " type="button" data-bs-target="#carouselLearning"
+                                        data-bs-slide="prev">
+                                        <span class=" "></span>
+                                    </button>
+                                    <button class=" " type="button" data-bs-target="#carouselLearning"
+                                        data-bs-slide="next">
+                                        <span class=" "></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <!-- Technology Tab -->
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTechnology">
+                            <button
+                                class="accordion-button collapsed d-flex justify-content-between align-items-center box-one"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTechnology"
+                                aria-expanded="false" aria-controls="collapseTechnology">
+                                <div class="task-slide-part-one-all-img">
+                                    <img height="40px" src="./files/images/DL-technology.svg" alt="#">
+                                </div>
+                                <div class="category-tab  task-slide-part-one-all-h1" data-tab="learning">
+                                    Technology
+                                </div>
+                                <img src="./files/icons/plus-01.svg" class="accordion-icon ms-auto" alt="Toggle Icon">
+                            </button>
+                        </h2>
+
+                        <div id="collapseTechnology" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionPanels">
+                            <!-- carousel content -->
+                            <div class="accordion-body p-0">
+                                <div id="carouselTechnology" class="carousel slide" data-bs-ride="carousel">
+
+                                    <!-- Carousel inner content -->
+                                    <div class="carousel-inner">
+                                        <!-- Slide 1 -->
+                                        <div class="carousel-item active">
+                                            <div class="triangle-up"></div>
+                                            <div class="text-white p-4 text-overlay"
+                                                style="background: linear-gradient(rgba(47, 177, 252, 0.7), rgba(47, 177, 252, 0.7)), url('./files/images/DL-Technology.jpg') no-repeat center center/cover;">
+                                                <span class="badge">DIGITAL TECHNOLOGY INFRASTRUCTURE</span>
+                                                <h4 class="mt-3 column-two-para">Modernization of Internal Systems
+                                                    through Cloud Integration</h4>
+                                                <a href="#" class="btn btn-link column-button text-white mt-3">Learn
+                                                    More →</a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 2 -->
+                                        <div class="carousel-item second-mobile"
+                                            style="background: linear-gradient(rgba(47, 177, 252, 0.7), rgba(47, 177, 252, 0.7));background-image: url('./files/images/DL-Learning-1.jpg'); background-size: cover; background-position: center; min-height: 300px;">
+                                            <div class="triangle-up triangle-up-second"></div>
+                                            <div class="text-overlay p-4 text-white">
+                                                <span class="badge">DIGITAL TECHNOLOGY INFRASTRUCTURE</span>
+                                                <h4 class="mt-3">Modernization of Internal Systems through Cloud
+                                                    Integration</h4>
+                                                <a href="#" class="btn btn-link column-button text-white mt-3">Learn
+                                                    More →</a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 3 -->
+                                        <div class="carousel-item  second-mobile"
+                                            style="background: linear-gradient(rgba(47, 177, 252, 0.7), rgba(47, 177, 252, 0.7));background-image: url('./files/images/DL-Communication.jpg'); background-size: cover; background-position: center; min-height: 300px;">
+                                            <div class="triangle-up triangle-up-second"></div>
+                                            <div class="text-overlay p-4 text-white">
+                                                <span class="badge">DIGITAL COMMUNICATION INFRASTRUCTURE</span>
+                                                <h4 class="mt-3">Effective Communication Channels for Global Teams</h4>
+                                                <a href="#" class="btn btn-link column-button text-white mt-3">Learn
+                                                    More →</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Carousel controls -->
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselTechnology" data-bs-slide="prev">
+                                        <span class=" "></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselTechnology" data-bs-slide="next">
+                                        <span class=" "></span>
+                                    </button>
+
+                                    <!-- Carousel indicators (dots) -->
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselTechnology" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselTechnology" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselTechnology" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--  -->
+
+
+
+
+
+                        <!--  -->
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingCommunication">
+                            <button
+                                class="accordion-button collapsed d-flex justify-content-between align-items-center box-one"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseCommunication"
+                                aria-expanded="false" aria-controls="collapseCommunication">
+                                <div class="task-slide-part-one-all-img">
+                                    <img height="40px" src="./files/images/DL-learning.svg" alt="#">
+                                </div>
+                                <div class="category-tab  task-slide-part-one-all-h1" data-tab="learning">
+                                    Communication
+                                </div>
+                                <img src="./files/icons/plus-01.svg" class="accordion-icon ms-auto" alt="Toggle Icon">
+                            </button>
+                        </h2>
+                        <div id="collapseCommunication" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionPanels">
+
+
+                            <!-- carousel content -->
+                            <div class="accordion-body p-0">
+                                <div class="carousel slide" id="carouselCommunication" data-bs-ride="carousel" data-bs-interval="5000">
+                                    
+                                    <!-- Slides -->
+                                    <div class="carousel-inner">
+                                        <!-- Slide 1 -->
+                                        <div class="carousel-item active">
+                                            <div class="triangle-up"></div>
+                                            <div class="text-white p-4 text-overlay"
+                                                style="background: linear-gradient(rgba(47, 177, 252, 0.7), rgba(47, 177, 252, 0.7)), url('./files/images/DL-Technology.jpg') no-repeat center center/cover;">
+                                                <span class="badge column-two-para">DIGITAL COMMUNICATION INFRASTRUCTURE</span>
+                                                <h4 class="mt-3">Effective Communication Channels for Global Teams</h4>
+                                                <a href="#" class="btn btn-link column-button text-white mt-3">Learn More →</a>
+                                            </div>
+                                        </div>
+                            
+                                        <!-- Slide 2 -->
+                                        <div class="carousel-item second-mobile"
+                                            style="background-image: url('./files/images/DL-Learning-1.jpg'); background-size: cover; background-position: center; min-height: 300px;">
+                                            <div class="triangle-up  triangle-up-second"></div>
+                                            <div class="text-overlay p-4 text-white">
+                                                <span class="badge">DIGITAL TECHNOLOGY INFRASTRUCTURE</span>
+                                                <h4 class="mt-3">Modernization of Internal Systems through Cloud Integration</h4>
+                                                <a href="#" class="btn btn-link column-button text-white mt-3">Learn More →</a>
+                                            </div>
+                                        </div>
+                            
+                                        <!-- Slide 3 -->
+                                        <div class="carousel-item second-mobile"
+                                        style="background-image: url('./files/images/DL-Technology.jpg'); background-size: cover; background-position: center; min-height: 300px;">
+                                        <div class="triangle-up triangle-up-second"></div>
+                                        <div class="text-overlay p-4 text-white">
+                                            <span class="badge">DIGITAL TECHNOLOGY INFRASTRUCTURE</span>
+                                            <h4 class="mt-3">Modernization of Internal Systems through Cloud Integration</h4>
+                                            <a href="#" class="btn btn-link column-button text-white mt-3">Learn More →</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                            
+                                    <!-- Carousel controls -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCommunication" data-bs-slide="prev">
+                                        <span class=" "></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCommunication" data-bs-slide="next">
+                                        <span class=" "></span>
+                                    </button>
+                            
+                                    <!-- Dots -->
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselCommunication" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselCommunication" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselCommunication" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+    </section>
+
+    <script>
+        const tabs = document.querySelectorAll(".category-tab");
+        const carousel = document.querySelector("#carouselExample");
+        const carouselInner = document.querySelector("#carousel-inner");
+        const carouselItems = carouselInner.children;
+        const image = document.getElementById("slide-image");
+
+        const tabImages = {
+            learning: "./files/images/DL-Technology.jpg",
+            technology: "./files/images/DL-Learning-1.jpg",
+            communication: "./files/images/DL-Communication.jpg"
+        };
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+                tabs.forEach(t => t.classList.remove("active"));
+                tab.classList.add("active");
+
+                const target = tab.getAttribute("data-tab");
+                [...carouselItems].forEach((item, index) => {
+                    if (item.getAttribute("data-tab") === target) {
+                        new bootstrap.Carousel(carousel).to(index);
+                        image.src = tabImages[target];
+                    }
+                });
+            });
+        });
+
+        document.getElementById('carouselExample').addEventListener('slide.bs.carousel', function (e) {
+            const next = carouselItems[e.to];
+            const targetTab = next.getAttribute('data-tab');
+            if (targetTab && tabImages[targetTab]) {
+                image.src = tabImages[targetTab];
+            }
+        });
+    </script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
